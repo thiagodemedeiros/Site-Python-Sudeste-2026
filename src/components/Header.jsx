@@ -1,4 +1,4 @@
-import logo from "../../public/logo_pyse_1.PNG"
+import logo from "/logo_pyse_1.PNG"
 import "./styles/Header.css"
 
 export default function Header() {

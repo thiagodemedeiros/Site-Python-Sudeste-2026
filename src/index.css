@@ -6,6 +6,10 @@
   /* background-color: black; */
 }
 
+html {
+  background-color: #ffeed9;
+}
+
 button {
   border: none;
 }
