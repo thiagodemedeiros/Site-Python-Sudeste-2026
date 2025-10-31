@@ -1,5 +1,5 @@
 import '../styles/Section1.css'
-import banner from '../../../../public/banner_section_1.png'
+import banner from '/banner_section_1.png'
 
 export default function section1() {
     return (
