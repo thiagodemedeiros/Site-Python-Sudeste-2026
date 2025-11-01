@@ -6,9 +6,8 @@
   /* background-color: black; */
 }
 
-html {
+body , html {
   background-color: #ffeed9;
-  width: 100vw;
 }
 
 button {
