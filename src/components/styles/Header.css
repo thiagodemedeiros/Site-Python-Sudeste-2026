@@ -75,3 +75,54 @@
         text-decoration-thickness: 2px;
     }
 }
+
+@media (max-width : 800px) {
+    .Header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        height: auto;
+        width: 100%;
+        padding: 13px 0px;
+        background-color: #fdc55e;
+        border-radius: 0px 0px 30px 30px;
+        box-shadow: 2px 2px 20px #00000062;
+
+        position: relative;
+        z-index: 1;
+
+        & img {
+            height: 8.5vh;
+            width: auto;
+        }
+
+        & button {
+            width: auto;
+            padding: 13px 23px;
+            height: auto;
+            border-radius: 10px;
+            background-color: #399ba8;
+
+            color: aliceblue;
+            font-size: clamp(20px, 3vw, 25px);
+            font-weight: 700;
+
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        & button:hover {
+                background-color: aliceblue;
+                color: #399ba8;
+                border: 5px rgb(59, 170, 255) solid;
+        }
+
+        /* border: 2px red solid; */
+    }
+
+    .Header-rotas {
+        display: none;
+    }
+}
