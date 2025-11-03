@@ -6,6 +6,7 @@ export default function section1() {
     return (
         <div className="section1">
             <img src={banner} alt="Banner PythonSudeste" className="section1-bannerDesktop"/>
+            <img src={bannerMobile} alt="Banner PythonSudeste" className="section1-bannerMobile"/>
 
             <div className="section1-aba-ingressos">
                 <h1>Compre seu ingresso para Python Sudeste</h1>
