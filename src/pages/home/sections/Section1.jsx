@@ -1,6 +1,6 @@
 import '../styles/Section1.css'
 import banner from '/banner_section_1.png'
-import bannerMobile from '../../../../public/banner-mobile.png'
+import bannerMobile from '/banner-mobile.png'
 
 export default function section1() {
     return (
