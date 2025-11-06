@@ -96,6 +96,9 @@
 
         & .section1-bannerMobile {
             display: flex;
+            width: 80vw;
+            max-width: 350px;
+            height: auto;
         }
     }
 

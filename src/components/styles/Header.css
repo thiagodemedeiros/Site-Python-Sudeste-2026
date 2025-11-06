@@ -77,6 +77,14 @@
 }
 
 @media (max-width : 800px) {
+    .Header-ingresso {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
     .Header {
         display: flex;
         flex-direction: row;
