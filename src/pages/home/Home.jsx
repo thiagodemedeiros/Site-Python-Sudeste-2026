@@ -21,3 +21,5 @@ export default function Home() {
         </div>
     )
 }
+
+// "homepage": "https://thiagodemedeiros.github.io/Site-Python-Sudeste-2026",
