@@ -5,8 +5,8 @@
     justify-content: center;
 
     position: fixed;
-    left: 93%;
-    top: 90%;
+    right: 20px;
+    bottom: 20px;
     z-index: 10;
 
     background-color: blue;
@@ -92,7 +92,7 @@
     & h6 {
         cursor: pointer;
     }
-    
+
     & h5 {
         margin-top: 6px;
     }
@@ -105,8 +105,8 @@
 @media (max-width : 800px) {
     .ButaoFlutuante {
         position: fixed;
-        left: 88%;
-        top: 90%;
+        right: 20px;
+        bottom: 20px;
         z-index: 10;
         
         background-color: blue;
