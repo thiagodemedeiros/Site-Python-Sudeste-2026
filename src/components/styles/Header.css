@@ -134,3 +134,14 @@
         display: none;
     }
 }
+
+@media (max-width : 450px) {
+    .Header-ingresso {
+        gap: 0px;
+
+        & img {
+            width: 20vw;
+            height: auto;
+        }
+    }
+}

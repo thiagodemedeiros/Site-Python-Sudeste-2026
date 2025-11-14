@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Section1 from "./sections/Section1";
 import Section2 from "./sections/Section2";
@@ -18,8 +19,7 @@ export default function Home() {
             <Section5/>
             <Section6/>
             <Section7/>
+            <Footer/>
         </div>
     )
 }
-
-// "homepage": "https://thiagodemedeiros.github.io/Site-Python-Sudeste-2026",
