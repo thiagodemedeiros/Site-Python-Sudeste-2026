@@ -1,11 +1,14 @@
-import ButaoFlutuante from "./components/ButaoFlutuante"
+import { Routes, Route } from "react-router-dom"
 import Home from "./pages/home/Home"
+import PaginaPalestrantes from "./pages/palestrantes/PaginaPalestrantes"
 
 function App() {
   return (
     <>
-      {/* <ButaoFlutuante/> */}
-      <Home/>
+      <Routes>
+        <Route path="" element={<Home/>}/>
+        <Route path="paginapalestrantes" element={<PaginaPalestrantes/>}/>
+      </Routes>
     </>
   )
 }

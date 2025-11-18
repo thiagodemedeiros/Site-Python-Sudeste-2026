@@ -9,9 +9,9 @@ export default function Header() {
                 <a href="/ingresso"><button>Ingressos aqui!</button></a>
             </div>
             <div className="Header-rotas">
-                <a href="/sobre"><h4>Sobre o Evento</h4></a>
-                <a href="/local"><h4>Local</h4></a>
-                <a href="/programacao"><h4>Programação</h4></a>
+                <a href=""><h4>Sobre o Evento</h4></a>
+                <a href=""><h4>Local</h4></a>
+                <a href="paginapalestrantes"><h4>Programação</h4></a>
             </div>
         </div>
     )
