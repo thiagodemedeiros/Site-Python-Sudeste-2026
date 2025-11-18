@@ -1,4 +1,4 @@
-.Section6 {
+.PaginaPalestrantes_Section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     height: auto;
 }
 
-.Section6-aba {
+.PaginaPalestrantes_Section1_aba {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@
     }
 }
 
-.Section6-PalestranteCard {
+.PaginaPalestrantes_Section1_PalestranteCard {
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -39,7 +39,7 @@
     gap: 60px;
 }
 
-.palestrante-item {
+.PaginaPalestrantes_palestrante_item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,7 +84,7 @@
 }
 
 @media (max-width : 600px) {
-    .palestrante-item {
+    .PaginaPalestrantes_palestrante_item {
         width: 300px;
         /* height: 750px; */
         padding: 20px 0px;

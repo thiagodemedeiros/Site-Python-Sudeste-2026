@@ -1,5 +1,3 @@
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
 import Section1 from "./sections/Section1";
 import Section2 from "./sections/Section2";
 import Section3 from "./sections/Section3";
@@ -11,7 +9,6 @@ import Section7 from "./sections/Section7";
 export default function Home() {
     return(
         <div className="Home">
-            <Header/>
             <Section1/>
             <Section2/>
             <Section3/>
@@ -19,7 +16,6 @@ export default function Home() {
             <Section5/>
             <Section6/>
             <Section7/>
-            <Footer/>
         </div>
     )
 }
