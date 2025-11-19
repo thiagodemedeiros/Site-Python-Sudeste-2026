@@ -14,20 +14,19 @@ function App() {
     }, 2000);
   }, []);
 
-  return (<>
+  return (
     <BrowserRouter basename="/Site-Python-Sudeste-2026">
-      {loading ? (
-          <Carregamento/>
-        ) : (
-            <Routes>
-              <Route path="" element={<Layout/>}>
-                <Route index element={<Home/>}/>
-                <Route path="paginapalestrantes" element={<PaginaPalestrantes/>}/>
-              </Route>
-            </Routes>
-      )}
+      {loading && <Carregamento />}
+
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="paginapalestrantes" element={<PaginaPalestrantes />} />
+        </Route>
+      </Routes>
+      
     </BrowserRouter>
-  </>)
+  );
 }
 
 export default App
