@@ -5,12 +5,12 @@ export default function Header() {
     return(
         <div className="Header">
             <div className="Header-ingresso">
-                <a href=""><img src={logo} alt="Logo Python sudeste" /></a>
-                <a href=""><button>Ingressos aqui!</button></a>
+                <a href="/"><img src={logo} alt="Logo Python sudeste" /></a>
+                <a href="/"><button>Ingressos aqui!</button></a>
             </div>
             <div className="Header-rotas">
-                <a href=""><h4>Sobre o Evento</h4></a>
-                <a href=""><h4>Local</h4></a>
+                <a href="/"><h4>Sobre o Evento</h4></a>
+                <a href="/"><h4>Local</h4></a>
                 <a href="paginapalestrantes"><h4>Programação</h4></a>
             </div>
         </div>
