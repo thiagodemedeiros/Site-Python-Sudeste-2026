@@ -1,17 +1,18 @@
 import logo from "/logo_pyse_1.PNG"
 import "./styles/Header.css"
+import { Link } from "react-router-dom"
 
 export default function Header() {
     return(
         <div className="Header">
             <div className="Header-ingresso">
-                <a href=""><img src={logo} alt="Logo Python sudeste" /></a>
-                <a href=""><button>Ingressos aqui!</button></a>
+                <Link to="/"><img src={logo} alt="Logo Python sudeste" /></Link>
+                <Link to="/"><button>Ingressos aqui!</button></Link>
             </div>
             <div className="Header-rotas">
-                <a href=""><h4>Sobre o Evento</h4></a>
-                <a href=""><h4>Local</h4></a>
-                <a href="paginapalestrantes"><h4>Programação</h4></a>
+                <Link to="/"><h4>Sobre o Evento</h4></Link>
+                <Link to="/"><h4>Local</h4></Link>
+                <Link to="/paginapalestrantes"><h4>Programação</h4></Link>
             </div>
         </div>
     )
