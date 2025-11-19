@@ -1,4 +1,4 @@
-import { BrowserRouter , Routes, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import Layout from "./Layout"
 import Home from "./pages/home/Home"
 import PaginaPalestrantes from "./pages/palestrantes/PaginaPalestrantes"
@@ -14,19 +14,16 @@ function App() {
     }, 2000);
   }, []);
 
-  return (
-    <BrowserRouter basename="/Site-Python-Sudeste-2026">
+  return (<>
       {loading && <Carregamento />}
-
+      
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="paginapalestrantes" element={<PaginaPalestrantes />} />
         </Route>
       </Routes>
-      
-    </BrowserRouter>
-  );
+  </>);
 }
 
 export default App
