@@ -1,5 +1,6 @@
 import '../styles/Section4.css'
 import img from "/logo_pyse_1.PNG"
+import { Link } from 'react-router-dom'
 
 export default function Section4() {
     return (
@@ -9,7 +10,7 @@ export default function Section4() {
                 <div className='Section4-itens-texto'>
                     <h4>Confira a Agenda Completa!</h4>
                     <p>Veja todos os detalhes da programação da Python Sudeste 2025 e não perca nenhuma atividade.</p>
-                    <a href="/"><button>Acessar Agenda</button></a>
+                    <Link to="/paginapalestrantes"><button>Acessar Agenda</button></Link>
                 </div>
             </div>
         </div>
