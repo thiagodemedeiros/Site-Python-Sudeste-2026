@@ -12,7 +12,7 @@ export default function Header() {
             <div className="Header-rotas">
                 <Link to="/sobre"><h4>Sobre o Evento</h4></Link>
                 <Link to="/local"><h4>Local</h4></Link>
-                <Link to="/paginapalestrantes"><h4>Programação</h4></Link>
+                {/* <Link to="/paginapalestrantes"><h4>Programação</h4></Link> */}
             </div>
         </div>
     )

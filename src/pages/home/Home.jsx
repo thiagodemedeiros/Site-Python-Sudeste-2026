@@ -16,12 +16,12 @@ export default function Home() {
             <Section2/>
             <Section3/>
             <Section4/>
-            <Section5/>
-            {/* <Section6/> */}
+            {/* <Section5/> SEÇÃO DOS KEYNOTES*/}
+            {/* <Section6/> SEÇÃO DOS PALESTRANTES*/}
             <Section7/>
             <Section10/>
             <Section8/>
-            <Section9/>
+            {/* <Section9/> SEÇÃO DOS PATROCINADORES*/}
         </div>
     )
 }

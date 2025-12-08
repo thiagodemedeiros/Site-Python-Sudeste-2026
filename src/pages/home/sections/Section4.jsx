@@ -9,8 +9,8 @@ export default function Section4() {
                 <img src={img} alt="Logo da python sudeste" />
                 <div className='Section4-itens-texto'>
                     <h4>Confira a Agenda Completa!</h4>
-                    <p>Veja todos os detalhes da programação da Python Sudeste 2025 e não perca nenhuma atividade.</p>
-                    <Link to="/paginapalestrantes"><button>Acessar Agenda</button></Link>
+                    <p>Veja todos os detalhes da programação da Python Sudeste 2026 e não perca nenhuma atividade.</p>
+                    <Link to="/"><button>Acessar Agenda</button></Link>
                 </div>
             </div>
         </div>

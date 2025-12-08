@@ -1,24 +1,23 @@
 import '../styles/Section10.css'
 import divisao from '/divisao.svg'
+import banner from '/banner_section10_home_sobre_o_rio.webp'
 
 export default function Section10() {
     return (<>
         <div className='Section10'>
             <div className='Section10_texto'>
                 <div className='Section10_texto_titulo'>
-                    <h4>Sobre o HELL de janeiro</h4>
-                    <h5>A edição de 2026 será sediada na Disney Brasileira, na faixa de gaza ocidental, aqui, no RJ, e será organizada pela PythOnRio.</h5>
-                    <h5>E PELO MEU GATO!</h5>
+                    <h5>Bem vindos ao Rio de Janeiro!</h5>
+                    <h5>A casa da Python Sudeste em 2026</h5>
                 </div>
                 <div className='Section10_texto_completo'>
-                    <p>O Rio de Janeiro vem se consolidando como um dos polos tecnológicos mais vibrantes do Brasil. Muito além de suas paisagens icônicas, a cidade abriga um ecossistema crescente de inovação, pesquisa e desenvolvimento. Startups, hubs de tecnologia, incubadoras e empresas globais encontraram no Rio um terreno fértil para criar soluções que impactam o país e o mundo.</p>
-                    <p>Nos últimos anos, a cidade fortaleceu sua presença no cenário de TI com iniciativas públicas e privadas que incentivam formação profissional, empreendedorismo e transformação digital. Universidades de excelência, centros de pesquisa e programas de capacitação alimentam um fluxo constante de novos talentos — muitos deles especializados em linguagens como Python, que se tornou uma das ferramentas mais importantes do mercado moderno.</p>
-                    <p>O Rio também se tornou palco de eventos, maratonas de programação e comunidades ativas que promovem colaboração e troca de conhecimento. A energia criativa da cidade, combinada com sua diversidade cultural, impulsiona a inovação e inspira soluções tecnológicas cada vez mais ousadas.</p>
-                    <p>Por tudo isso, realizar um evento de programação em Python no Rio de Janeiro é conectar-se com uma capital tecnológica em evolução, cheia de oportunidades e pronta para liderar o futuro da inovação no Brasil.</p>
-                    <p>FOI GERADO PELO GPT PQ EU ODEIO ESSE LUGAR</p>
-                    <p>Mudar antes de subir pro site de verdade</p>
+                    <p>O Rio de Janeiro sempre foi reconhecido por sua beleza, cultura e criatividade, mas, também se destaca como um polo estratégico para o avanço da tecnologia no Brasil. Da pesquisa científica que nasce em instituições de referência aos hubs de inovação que conectam startups, empresas e comunidades, o Rio se consolida como um território fértil para quem transforma ideias em impacto real.</p>
+                    <p>É aqui que universidades como UFRJ, UFF e PUC-Rio formam talentos que alimentam o ecossistema nacional de engenharia, ciência de dados e desenvolvimento de software. É aqui que centros como o Parque Tecnológico da UFRJ e o Porto Maravalley aceleram projetos que unem academia, mercado e governo. É aqui que comunidades vibrantes, como a nossa, encontram espaço para crescer, difundir conhecimento e colaborar.</p>
+                    <p>No contexto da tecnologia brasileira, o Rio de Janeiro é um catalisador: conecta tradição científica com inovação empreendedora, criatividade com engenharia, diversidade com potência transformadora. E é justamente essa energia que faz eventos como o Python Sudeste acontecerem, porque quando uma comunidade se reúne, compartilha e constrói junto, ela eleva todo o ecossistema.</p>
+                    <p>O Rio inspira. O Rio cria. O Rio progride.</p>
+                    <p>E hoje, o Rio impulsiona a tecnologia brasileira, com a força de quem sabe que inovação também é cultura, colaboração e comunidade.</p>
                 </div>
-                <img src="https://s2-oglobo.glbimg.com/Nmfx7SQVYsYWw3rLdLE4ZYP53z8=/0x0:5999x3757/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/R/p/IUDTLNS5WBmXopqJm2RA/107931699-ri-rio-de-janeiro-rj-01-08-2024-complexo-de-israel-estrela-de-davi-acesa-no-alto-da-cida-1-.jpg" alt="" />
+                <img src={banner} alt="" />
             </div>
 
             <img src={divisao} className='Section10_divisao' alt='Divisão de seções' />

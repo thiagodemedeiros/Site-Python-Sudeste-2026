@@ -22,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="paginapalestrantes" element={<PaginaPalestrantes />} />
+          {/* <Route path="paginapalestrantes" element={<PaginaPalestrantes />} /> */}
           <Route path="local" element={<Local />} />
           <Route path="sobre" element={<Sobre />} />
         </Route>

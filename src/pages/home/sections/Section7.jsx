@@ -9,8 +9,7 @@ export default function Section7() {
             <div className='Section7-texto'>
                 <h4>Como Patrocinar a Python Sudeste</h4>
                 <h5>Consulte nosso plano de patrocinio, e ajude essa comunidade que cresce mais a cada dia!</h5>
-                             {/* TO DO */}
-                <a href="/"> {/* ADICIONAR LINK PARA PLANO DE PATROCINIO */}
+                <a href="https://www.canva.com/design/DAG2zl6Zfu8/coIzW8dNZlTQ1KdbivY3fA/edit">
                     <button>Acesse aqui nosso plano de patrocínio</button>
                 </a>
             </div>

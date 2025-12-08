@@ -8,6 +8,7 @@ export default function Section1() {
                     <h3>Palestrante</h3>
                 </div>
     
+                {/* 
                 <div className='PaginaPalestrantes_Section1_PalestranteCard'>
                     {PalestranteList.map((palestrante, index) => (
                         // <div className='Section6-palestrantescards'>
@@ -21,6 +22,7 @@ export default function Section1() {
                         ))
                     }
                 </div>
+                 */}
             </div>
         )
 }

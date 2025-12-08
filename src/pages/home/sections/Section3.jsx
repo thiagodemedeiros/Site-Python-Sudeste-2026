@@ -8,7 +8,7 @@ export default function Section3() {
 
             <div className="Section3-titulo">
                 <h3>Cronograma</h3>
-                <h5>A Python Sudeste 2025 é composta por 2 tipos de atividades: tutoriais e palestras</h5>
+                <h5>A Python Sudeste 2026 é composta por 2 tipos de atividades: tutoriais e palestras</h5>
             </div>
 
             <div className="Section3-todas-datas">
