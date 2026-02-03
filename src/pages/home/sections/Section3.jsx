@@ -1,5 +1,7 @@
 import "../styles/Section3.css"
 import divisao from "/divisao.svg"
+import arca_hub from '/arcahub_local.webp'
+import campus_fiap from '/campus_fiap.png'
 
 export default function Section3() {
     return (
@@ -13,15 +15,29 @@ export default function Section3() {
 
             <div className="Section3-todas-datas">
                 <div className="Section3-data">
-                    <h6>Tutoriais</h6>
-                    <h6>30 de Maio</h6>
-                    <p>Os tutoriais são cursos práticos que acontecem no primeiro dia do evento, com duração de 4 horas.</p>
+                    <div className="Section3-data-titulo">
+                        <h6>Tutoriais</h6>
+                        <h6>A ser definida</h6>
+                        <p>Os tutoriais são cursos práticos que acontecem no primeiro dia do evento, com duração de 4 horas.</p>
+                    </div>
+                    <div className="Section3-data-local">
+                        <h6>Local:</h6>
+                        <h6>Campus da FIAP</h6>
+                        <img src={campus_fiap} alt="" />
+                    </div>
                 </div>
 
                 <div className="Section3-data">
-                    <h6>Palestras</h6>
-                    <h6>31 de Maio e 01 de Junho</h6>
-                    <p>As palestras são apresentações de 45 minutos sobre temas variados, desde técnicas avançadas até casos de uso.</p>
+                    <div className="Section3-data-titulo">
+                        <h6>Palestras</h6>
+                        <h6>25 e 26 de Julho</h6>
+                        <p>As palestras são apresentações de 45 minutos sobre temas variados, desde técnicas avançadas até casos de uso.</p>
+                    </div>
+                    <div className="Section3-data-local">
+                        <h6>Local:</h6>
+                        <h6>Arca em Ipanema</h6>
+                        <img src={arca_hub} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

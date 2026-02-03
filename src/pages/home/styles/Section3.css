@@ -39,7 +39,7 @@
 .Section3-todas-datas {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 
     gap: 30px;
@@ -51,6 +51,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 
     text-align: center;
 
@@ -67,6 +68,25 @@
     & p {
         margin-top: 10px;
         width: 250px;
+    }
+}
+
+.Section3-data-local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    & h6 {
+        margin-top: -5px;
+    }
+
+    & img {
+        width: 250px;
+        border-radius: 10px;
+        height: 162px;
+        background-image: fill;
     }
 }
 
