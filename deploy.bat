@@ -16,6 +16,7 @@ echo CRIANDO 404.html
 echo ============================
 cd dist
 copy index.html 404.html
+echo "https://2026.sudeste.python.org.br/" > CNAME
 
 echo.
 echo ============================
