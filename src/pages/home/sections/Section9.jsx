@@ -1,4 +1,7 @@
 import "../styles/Section9.css"
+import fiap from "/patrocinadores/fiap.webp"
+import alura from "/patrocinadores/alura.webp"
+import maravalley from "/patrocinadores/maravaley.png"
 
 export default function Section9() {
     return (<>
@@ -9,9 +12,9 @@ export default function Section9() {
             </div>
 
             <div className="Section9_patrocinadores">
-                <img src="https://2025.sudeste.python.org.br/images/Logo-PSF.png" alt="" />
-                <img src="https://2025.sudeste.python.org.br/images/brasao-puc-policromia.png" alt="" />
-                <img src="https://2025.sudeste.python.org.br/images/velozient.png" alt="" />
+                <img src={fiap} alt="" />
+                <img src={alura} alt="" />
+                <img src={maravalley} alt="" />
             </div>
         </div>
     </>)
